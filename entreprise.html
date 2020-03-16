@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Entreprise</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/entreprise.css">
+    <link rel="stylesheet" href="css/accueil.css">
+</head>
+
+<body>
+    <main>
+        <header>
+    <img id ="logo" src="image/logo.png">
+    <h1>ADOPTE_UN_STAGIAIRE.com</h1>
+
+<div id ="menu">
+<a href="accueil.html"><input class="menu" id="formation"
+       type="button"
+       value="Accueil" action="accueil.html"></a>
+
+<a href="stagiaire.html"><input class="menu" id="stagiaire"
+       type="button"
+       value="Stagiaires" action="stagiaire.html"></a>
+
+       <a href="entreprise.html"><input class="menu" id="entreprise"
+       type="button"
+       value="Entreprise"action="entreprise.html"></a>
+   </div>
+   </header>
+        <div class="entreprise">
+            <form method="post" action="traitement.php">
+                <fieldset>
+                    <legend>
+                        <h3>ENTREPRISE</h3>
+                    </legend>
+                    <p><label>Identifiant</label> <input type="text" name="identifiant"/></p>
+                    <p><label>Mot de passe</label> <input type="text" name="mot de passe"/></p>
+                    <input type="submit" id="connect" value="Se connecter" />
+                </fieldset>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
