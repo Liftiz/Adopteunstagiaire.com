@@ -1,0 +1,55 @@
+.formation, .stage {
+    position: relative;
+    left: 200px;
+}
+header{
+
+	background: linear-gradient(#22427C, #77B5FE);
+	text-align: center;
+	color: white;
+	height: 145px;
+}
+h1{
+	position: relative;
+	top:-105px;
+}
+#logo{
+	position: relative;
+	top:0px;
+	right:300px;
+	height: 150px;
+	width: 150px;
+}
+.menu {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  font-weight:bold;
+  background-image: linear-gradient(to right,#22427C  0%, #8fd3f4 51%, #77B5FE 100%);
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  color:white;
+
+ }
+ .menu:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+#formation {
+	position: relative;
+	top:-90px;
+	right:430px;	
+}
+#stagiaire{
+	position: relative;
+	right:595px;
+}
+#entreprise{
+	position: relative;
+	top:90px;
+	right:760px;
+}
